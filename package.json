@@ -1,32 +1,21 @@
 {
   "name": "gas-is-japanese-national-holiday",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "src/index.d.ts",
   "repository": "https://github.com/shuymn/gas-is-japanese-national-holiday.git",
   "author": "Shu Yamani <mail@shuymn.me>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "eslint src/**/*.ts",
-    "build": "yarn test && webpack",
-    "push": "yarn build && clasp push"
+    "test": "eslint src/**/*.ts"
   },
   "devDependencies": {
     "@types/google-apps-script": "^0.0.59",
-    "@types/webpack": "^4.39.1",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
-    "es3ify-loader": "^0.2.0",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "gas-webpack-plugin": "^1.0.2",
     "prettier": "^1.18.2",
-    "ts-loader": "^6.1.0",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.3",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "typescript": "^3.6.3"
   }
 }
