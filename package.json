@@ -1,5 +1,6 @@
 {
   "name": "gas-is-japanese-national-holiday",
+  "version": "1.0.1",
   "types": "src/index.d.ts",
   "repository": "https://github.com/shuymn/gas-is-japanese-national-holiday.git",
   "author": "Shu Yamani <mail@shuymn.me>",
