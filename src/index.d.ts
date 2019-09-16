@@ -1,1 +1,1 @@
-export declare function isHoliday(): boolean;
+export declare function isHoliday(date?: Date): boolean;
