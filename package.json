@@ -10,7 +10,7 @@
     "test": "eslint src/**/*.ts"
   },
   "devDependencies": {
-    "@types/google-apps-script": "^0.0.59",
+    "@types/google-apps-script": "^1.0.14",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.34.0",
     "eslint": "^6.4.0",
